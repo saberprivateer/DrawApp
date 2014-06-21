@@ -2,4 +2,5 @@
 <resources>
     <string name="app_name">DrawApp</string>
     <string name="send_to">Test Share Intent</string>
+    <string name="welcome_text">Please use your finger and draw on the screen!</string>
 </resources>
