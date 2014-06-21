@@ -108,6 +108,8 @@ public class MyActivity extends Activity {
                 GestureOverlayView gestures = (GestureOverlayView) findViewById(R.id.gestureOverlayView);
                 gestures.clear(true);
                 return true;
+            //add case to save bitmap
+            //add case to change color
             default:
                 return super.onOptionsItemSelected(item);
         }
