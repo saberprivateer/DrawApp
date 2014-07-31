@@ -3,7 +3,7 @@
               android:orientation="vertical"
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
-        >
+              android:id="@+id/root">
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -23,7 +23,11 @@
             android:gestureColor="@android:color/holo_red_light"
             android:gestureStrokeType="multiple"
             android:gestureStrokeWidth="1"
-            android:uncertainGestureColor="@android:color/holo_red_light">
+            android:uncertainGestureColor="@android:color/holo_red_light" android:eventsInterceptionEnabled="false">
+    <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageView"/>
     </android.gesture.GestureOverlayView>
 </LinearLayout>
 

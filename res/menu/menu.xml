@@ -10,6 +10,7 @@
     <item android:id="@+id/menu_change"
           android:icon="@android:drawable/ic_menu_edit"
           android:title="Change Color"
+          android:actionViewClass="android.widget.Spinner"
             android:showAsAction="always"/>
     <item android:id="@+id/menu_save"
           android:icon="@android:drawable/ic_menu_save"
